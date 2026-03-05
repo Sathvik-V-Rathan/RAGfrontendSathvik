@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L1 Support Assistant</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>L1 Support Assistant</h1>
+            <p>How can I help you today?</p>
+        </header>
+        <main class="chat-history" id="chat-history">
+            <div class="message bot">
+                <p>Hello! I'm your L1 Support Assistant. Please describe your computer issue.</p>
+            </div>
+            <!-- Messages will appear here -->
+        </main>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off" />
+            <button id="send-btn">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z" fill="currentColor" />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
